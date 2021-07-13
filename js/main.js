@@ -22,7 +22,7 @@ $(function(){
             var scrollWindow = $(window).scrollTop() + $(window).height();
             var scrollCont = $('.cont01').offset().top + $('.cont01').height(); 
             if (scrollWindow >= scrollCont) {
-                $(this).delay(500).animate({'opacity' : '1'}, 500);
+                $(this).delay(200).animate({'opacity' : '1'}, 500);
             }  
         });
     });
